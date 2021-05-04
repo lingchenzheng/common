@@ -17,7 +17,10 @@ yarn add @lingcz/vue-click-outside
 -   as a directive
 
 ```javascript
-import { ClickOutsideDirective } from '@lingcz/vue-click-outside'
+import {
+    ClickOutsideDirective,
+    clickOutsideDirective
+} from '@lingcz/vue-click-outside'
 //the name of directive default is 'click-outside',but you can pass a name as second param
 //register to global
 app.use(ClickOutsideDirective, 'click-outside')
@@ -35,7 +38,7 @@ app.use(ClickOutsideDirective, 'click-outside')
 
 export default {
     directives: {
-        'click-outside': ClickOutsideDirective.clickOutsideDirective
+        'click-outside': clickOutsideDirective
     }
 }
 ```

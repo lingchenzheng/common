@@ -47,10 +47,7 @@ export default [
                 format: 'cjs',
                 file: getPath(`dist/${pkg.name.substr(7)}.cjs.js`)
             }
-        ],
-        external(id) {
-            return /^vue/.test(id)
-        }
+        ]
     },
     {
         input,

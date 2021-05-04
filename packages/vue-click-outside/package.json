@@ -1,0 +1,37 @@
+{
+    "name": "@lingcz/vue-click-outside",
+    "version": "1.0.0",
+    "description": "a vue3 util for click outside",
+    "keywords": [
+        "vue3",
+        "click-outside"
+    ],
+    "author": "lingchenzheng <670277404@qq.com>",
+    "homepage": "",
+    "license": "MIT",
+    "main": "dist/vue-click-outside.cjs.js",
+    "module": "dist/vue-click-outside.esm.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/*",
+        "LICENSE",
+        "README.md",
+        "package.json"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "rollup --config"
+    },
+    "dependencies": {
+        "@lingcz/shared": "^1.0.0"
+    },
+    "peerDependencies": {
+        "vue": "^3.0.11",
+        "@babel/runtime-corejs3": "^7.14.0"
+    }
+}

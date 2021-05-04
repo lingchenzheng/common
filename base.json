@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "allowSyntheticDefaultImports": true,
+        "target": "ES3",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": false,
+        "noImplicitThis": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": false,
+        "lib": ["DOM", "DOM.Iterable", "ESNEXT", "ScriptHost"]
+    }
+}

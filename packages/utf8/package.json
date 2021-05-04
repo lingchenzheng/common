@@ -11,9 +11,14 @@
     "author": "lingchenzheng <670277404@qq.com>",
     "homepage": "https://github.com/lingchenzheng/common#readme",
     "license": "MIT",
-    "main": "lib/utf8.js",
+    "main": "dist/utf8.cjs.js",
+    "module": "dist/utf8.esm.js",
+    "types": "dist/index.d.ts",
     "files": [
-        "lib"
+        "dist/*",
+        "README.md",
+        "package.json",
+        "LICENSE"
     ],
     "publishConfig": {
         "access": "public"

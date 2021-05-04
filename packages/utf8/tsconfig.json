@@ -1,0 +1,7 @@
+{
+    "extends": "../../base",
+    "compilerOptions": {
+        "baseUrl": "."
+    },
+    "include": ["*.ts"]
+}

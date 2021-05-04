@@ -31,7 +31,7 @@
         "@lingcz/shared": "^1.0.0"
     },
     "peerDependencies": {
-        "vue": "^3.0.11",
-        "@babel/runtime-corejs3": "^7.14.0"
+        "@babel/runtime-corejs3": "^7.14.0",
+        "vue": "^3.0.11"
     }
 }

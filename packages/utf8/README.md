@@ -1,11 +1,11 @@
 # `@lingcz/utf8`
 
-> TODO: description
-
 ## Usage
 
-```
-const utf8 = require('@lingcz/utf8');
+```javascript
+const utf8 = require('@lingcz/utf8')
 
-// TODO: DEMONSTRATE API
+const str = 'I love 中国'
+
+const result = utf8.encode(str)
 ```

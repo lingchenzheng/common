@@ -56,5 +56,3 @@ export const getStyle = (el: HTMLElement, prop: string): string => {
     el.ownerDocument.defaultView.getComputedStyle
     return el.style.cssFloat
 }
-
-let app = document.getElementById('app')

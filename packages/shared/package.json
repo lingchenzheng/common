@@ -7,8 +7,8 @@
     ],
     "author": "lingchenzheng <670277404@qq.com>",
     "license": "MIT",
-    "main": "index.ts",
-    "module": "index.ts",
+    "main": "dist/shared.cjs.js",
+    "module": "dist/shared.esm.ts",
     "types": "dist/index.d.ts",
     "publishConfig": {
         "access": "public"

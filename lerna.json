@@ -5,7 +5,7 @@
     "useWorkspaces": true,
     "command": {
         "publish": {
-            "ignoreChanges": ["README.md"]
+            "ignoreChanges": ["README.md", "rollup.config.js"]
         }
     }
 }

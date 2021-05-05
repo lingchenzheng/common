@@ -11,6 +11,9 @@ module.exports = {
         },
         {
             root: './packages/shared'
+        },
+        {
+            root: './packages/utf8'
         }
     ]
 }

@@ -31,3 +31,17 @@ export const isPlainObject = (val: unknown): val is object => {
     if (val === null) return false
     return toString.call(val) === '[object Object]'
 }
+
+export const pad = (target: string | number, len = 2, fill = '0'): string => {
+    fill = fill.length > 1 ? fill.substr(0, 1) : fill
+    if (isNumber(target)) {
+        target = target.toString()
+    }
+    const l = target.length
+    if (l < len) {
+        return pad(fill + target, len, fill)
+    } else if (l > len) {
+        return target.substr(l - len)
+    }
+    return target
+}

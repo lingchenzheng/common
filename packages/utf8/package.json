@@ -35,5 +35,8 @@
     },
     "dependencies": {
         "@lingcz/shared": "^1.0.4"
+    },
+    "peerDependencies": {
+        "@babel/runtime-corejs3": "7.14.0"
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "@lingcz/vue-click-outside",
-    "version": "1.0.5",
+    "version": "1.1.0",
     "description": "a vue3 util for click outside",
     "keywords": [
         "vue3",
@@ -28,7 +28,7 @@
         "build": "rollup --config"
     },
     "dependencies": {
-        "@lingcz/shared": "^1.0.5"
+        "@lingcz/shared": "^1.1.0"
     },
     "peerDependencies": {
         "@babel/runtime-corejs3": "^7.14.0",

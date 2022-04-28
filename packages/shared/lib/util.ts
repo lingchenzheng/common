@@ -45,3 +45,13 @@ export const pad = (target: string | number, len = 2, fill = '0'): string => {
     }
     return target
 }
+
+export const deepFreeze = (obj: any) => {
+    Object.freeze(obj)
+    for (const value of Object.values(obj)) {
+        if (typeof value === 'object' && !Object.isFrozen(value)) {
+            deepFreeze(value)
+        }
+    }
+    return obj
+}
